@@ -479,8 +479,8 @@ local Script = {
         Watermark = true,
         fpscap = 144,
         Type = "Main",
-        CheatName = "Asura "
-        --game:GetService("CoreGui").Asura {beta}.main.top.title
+        CheatName = "TrackWoc "
+        --game:GetService("CoreGui").TrackWoc {beta}.main.top.title
     }
 }
 
@@ -644,7 +644,7 @@ function createvisualizer()
     Visualizer:Destroy()
 end
 
-local Window = Library:CreateWindow("Asura BETA", Vector2.new(390, 390), Enum.KeyCode.RightShift)
+local Window = Library:CreateWindow("TrackWoc BETA", Vector2.new(390, 390), Enum.KeyCode.RightShift)
 
 --// Tabs
 local Main = Window:CreateTab("Main")
